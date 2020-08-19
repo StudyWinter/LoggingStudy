@@ -1,0 +1,60 @@
+[2020-08-13 21:00:13.125] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-13 21:00:13.141] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-13 21:00:13.141] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-13 21:00:13.141] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-13 21:00:13.148] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-13 21:00:13.149] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-13 21:04:46.028] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-13 21:04:46.049] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-13 21:04:46.050] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-13 21:04:46.055] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-13 21:04:46.056] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-13 21:04:46.057] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-13 21:06:14.611] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-13 21:06:14.628] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-13 21:06:14.629] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-13 21:06:14.629] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-13 21:06:14.633] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-13 21:06:14.634] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-13 21:07:19.022] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-13 21:07:19.038] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-13 21:07:19.038] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-13 21:07:19.038] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-13 21:07:19.039] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-13 21:07:19.039] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-14 09:57:12.827] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-14 09:57:12.865] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-14 09:57:12.865] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-14 09:57:12.867] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-14 09:57:12.867] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-14 09:57:12.868] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-14 09:59:40.813] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-14 09:59:40.829] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-14 09:59:40.830] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-14 09:59:40.831] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-14 09:59:40.831] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-14 09:59:40.831] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-14 10:02:42.433] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-14 10:02:42.435] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-14 10:02:42.435] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-14 10:02:42.435] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-14 10:02:42.435] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-14 10:02:42.435] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-14 10:08:32.037] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-14 10:08:32.048] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-14 10:08:32.049] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-14 10:08:32.049] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-14 10:08:32.049] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-14 10:08:32.050] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-14 10:09:20.172] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-14 10:09:20.189] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-14 10:09:20.189] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-14 10:09:20.190] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-14 10:09:20.190] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-14 10:09:20.192] [TRACE]  edu.xust.Log4j2Test - trace
+[2020-08-14 21:32:03.426] [FATAL]  edu.xust.Log4j2Test - fatal
+[2020-08-14 21:32:03.465] [ERROR]  edu.xust.Log4j2Test - error
+[2020-08-14 21:32:03.466] [WARN ]  edu.xust.Log4j2Test - warn
+[2020-08-14 21:32:03.466] [INFO ]  edu.xust.Log4j2Test - info
+[2020-08-14 21:32:03.468] [DEBUG]  edu.xust.Log4j2Test - debug
+[2020-08-14 21:32:03.468] [TRACE]  edu.xust.Log4j2Test - trace

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="pattern" value="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %c  %M %L [%thread] ---- %m %n"></property>
+     <!--2、控制台输出日志appender-->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <!--2.1、控制输出流对象，默认的是System.out。改为System.err-->
+        <target>System.err</target>
+
+        <!--2.2、日志消格式-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <!--    <pattern>${pattern}</pattern>-->
+            <springProfile name="dev">           <!--开发环境默认输出-->       
+                <pattern>${pattern}</pattern>            
+            </springProfile>            
+            <springProfile name="pro">            <!--生产环境-->  
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %c  %M %L [%thread] ==== %m %n</pattern>            
+            </springProfile>
+
+        </encoder>
+    </appender>
+    <!--9自定义logger对象
+    additivity="false" 自定义logger对象是否继承rootLogger  false不继承
+    -->
+    <logger name="com.example" level="info" additivity="false">
+        <appender-ref ref="console"/>
+    </logger>
+    <!--使用这个之后，springboot的配置就会作废-->
+</configuration>

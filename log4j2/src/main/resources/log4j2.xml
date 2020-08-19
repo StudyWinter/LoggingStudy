@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  status="warn"日志框架本身的输出日志级别
+      monitorInterval="5"自动加载配置文件的时间间隔不低于5s
+-->
+
+<Configuration status="debug" monitorInterval="5">
+
+    <!--集中配置属性进行管理
+        使用:${name}
+    -->
+      <properties>        
+             <property name="LOG_HOME">E:/code/maven/log4j2/logs</property>    
+      </properties>
+
+    <!--日志处理器-->
+     <Appenders>      
+
+        <!--控制台输出appender target="SYSTEM_OUT"--> 
+        <Console name="Console" target="SYSTEM_ERR">            
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] [%-5level] %c{36}:%L -- %m%n" />        
+        </Console>
+
+    <!--日志文件输出appender -->
+           <File name="file" fileName="${LOG_HOME}/myfile.log">            
+        <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] %l %c{36} - %m%n" />        
+           </File>
+
+    <!--1、异步日志 AsyncAppender方式-->
+     <Async name="Async">            
+        <AppenderRef ref="file"/>        
+    </Async>
+
+    <!--日志文件输出，使用的是随机读写流的appender，性能提高很多-->
+         <RandomAccessFile name="accessFile" fileName="${LOG_HOME}/myAcclog.log">            
+                <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] %l %c{36} - %m%n" />      
+         </RandomAccessFile>
+
+    <!--按照一定规则拆分日志文件的appender-->
+           <RollingFile name="rollingFile" fileName="${LOG_HOME}/myrollog.log"
+                        filePattern="E:/code/maven/log4j2/logs/$${date:yyyy-MM-dd}/myrollog-%d{yyyyMM-dd-HH-mm}-%i.log">  
+                 <!--日志级别的过滤器  高放行，低拦截-->
+        <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />            
+        <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] %l %c{36} - %msg%n" />
+        <!--具体拆分规则-->         
+         <Policies>              
+            <!--在系统启动时，触发拆分规则，生成一个新的日志文件--> 
+            <OnStartupTriggeringPolicy />    
+            <!--按照文件大小进行拆分分，10MB-->           
+            <SizeBasedTriggeringPolicy size="10 MB" />  
+            <!--按照时间节点拆分，规则filePattern定义的-->             
+            <TimeBasedTriggeringPolicy />            
+        </Policies>        
+        <!--在同一个目录下，文件个数限定为30个，超过的会按照时间覆盖-->   
+        <DefaultRolloverStrategy max="30" />        
+    </RollingFile>
+       </Appenders>    
+
+    <!--logger的定义-->
+    <Loggers>      
+
+<!--2、局部异步，需要把全局的关掉
+    异步logger对象
+    includeLocation="false"关闭日志记录的行号信息，影响效率
+    additivity="false"不再继承RootLogger对象
+-->
+         <AsyncLogger name="edu.xust" level="trace" includeLocation="false" additivity="false">      
+            <AppenderRef ref="Console"/>    
+        </AsyncLogger>
+
+
+
+        <!--使用RootLogger配置，日志级别是trace--> 
+        <Root level="trace">            
+            <!--指定日志使用的处理器-->
+            <AppenderRef ref="Console" />
+
+           <!--使用异步appender--> 
+            <AppenderRef ref="Async"/>    
+        </Root>    
+    </Loggers>
+</Configuration>

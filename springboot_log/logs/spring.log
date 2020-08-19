@@ -1,0 +1,24 @@
+[INFO ] 2020-08-15 09:21:46 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== Starting SpringbootLogApplicationTests on DESKTOP-TJ4DG3S with PID 10468 (started by songdongdong in E:\code\maven\springboot_log)
+[DEBUG] 2020-08-15 09:21:46 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[INFO ] 2020-08-15 09:21:46 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== No active profile set, falling back to default profiles: default
+[INFO ] 2020-08-15 09:21:49 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] ====== Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-08-15 09:21:49 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== Started SpringbootLogApplicationTests in 4.222 seconds (JVM running for 6.575)
+[ERROR] 2020-08-15 09:21:50 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== error
+[WARN ] 2020-08-15 09:21:50 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== warn
+[INFO ] 2020-08-15 09:21:50 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== info
+[DEBUG] 2020-08-15 09:21:50 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== debug
+[TRACE] 2020-08-15 09:21:50 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== trace
+[INFO ] 2020-08-15 09:21:50 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== log4j2的info
+[INFO ] 2020-08-15 09:21:50 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] ====== Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-08-15 10:29:44 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== Starting SpringbootLogApplicationTests on DESKTOP-TJ4DG3S with PID 18620 (started by songdongdong in E:\code\maven\springboot_log)
+[DEBUG] 2020-08-15 10:29:44 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[INFO ] 2020-08-15 10:29:44 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== The following profiles are active: dev
+[INFO ] 2020-08-15 10:29:46 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] ====== Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-08-15 10:29:47 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== Started SpringbootLogApplicationTests in 3.416 seconds (JVM running for 8.068)
+[ERROR] 2020-08-15 10:29:47 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== error
+[WARN ] 2020-08-15 10:29:47 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== warn
+[INFO ] 2020-08-15 10:29:47 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== info
+[DEBUG] 2020-08-15 10:29:47 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== debug
+[TRACE] 2020-08-15 10:29:47 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== trace
+[INFO ] 2020-08-15 10:29:47 com.example.springboot_log.SpringbootLogApplicationTests [main] ====== log4j2的info
+[INFO ] 2020-08-15 10:29:47 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] ====== Shutting down ExecutorService 'applicationTaskExecutor'

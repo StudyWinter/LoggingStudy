@@ -1,0 +1,5 @@
+[ERROR] 2020-08-14 18:21:41.985 edu.xust.LogbackTest  test01 18 [main] error 
+[WARN ] 2020-08-14 18:21:41.991 edu.xust.LogbackTest  test01 19 [main] warn 
+[INFO ] 2020-08-14 18:21:41.996 edu.xust.LogbackTest  test01 20 [main] info 
+[DEBUG] 2020-08-14 18:21:41.996 edu.xust.LogbackTest  test01 21 [main] debug 
+[TRACE] 2020-08-14 18:21:41.997 edu.xust.LogbackTest  test01 22 [main] trace 

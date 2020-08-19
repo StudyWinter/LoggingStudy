@@ -1,0 +1,412 @@
+严重: severe [星期二 八月 11 18:51:17 CST 2020]
+警告: warning [星期二 八月 11 18:51:17 CST 2020]
+信息: info [星期二 八月 11 18:51:17 CST 2020]
+配置: config [星期二 八月 11 18:51:17 CST 2020]
+详细: fine [星期二 八月 11 18:51:17 CST 2020]
+较详细: finer [星期二 八月 11 18:51:17 CST 2020]
+非常详细: finest [星期二 八月 11 18:51:17 CST 2020]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-11T18:54:44</date>
+  <millis>1597143284148</millis>
+  <sequence>0</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>SEVERE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2020-08-11T18:54:44</date>
+  <millis>1597143284295</millis>
+  <sequence>1</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>WARNING</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2020-08-11T18:54:44</date>
+  <millis>1597143284297</millis>
+  <sequence>2</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>INFO</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2020-08-11T18:54:44</date>
+  <millis>1597143284297</millis>
+  <sequence>3</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>CONFIG</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2020-08-11T18:54:44</date>
+  <millis>1597143284297</millis>
+  <sequence>4</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2020-08-11T18:54:44</date>
+  <millis>1597143284297</millis>
+  <sequence>5</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINER</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2020-08-11T18:54:44</date>
+  <millis>1597143284297</millis>
+  <sequence>6</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINEST</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-11T18:55:08</date>
+  <millis>1597143308999</millis>
+  <sequence>0</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>SEVERE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2020-08-11T18:55:09</date>
+  <millis>1597143309141</millis>
+  <sequence>1</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>WARNING</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2020-08-11T18:55:09</date>
+  <millis>1597143309142</millis>
+  <sequence>2</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>INFO</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2020-08-11T18:55:09</date>
+  <millis>1597143309142</millis>
+  <sequence>3</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>CONFIG</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2020-08-11T18:55:09</date>
+  <millis>1597143309142</millis>
+  <sequence>4</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2020-08-11T18:55:09</date>
+  <millis>1597143309142</millis>
+  <sequence>5</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINER</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2020-08-11T18:55:09</date>
+  <millis>1597143309142</millis>
+  <sequence>6</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINEST</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-11T20:45:00</date>
+  <millis>1597149900286</millis>
+  <sequence>0</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>SEVERE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2020-08-11T20:45:00</date>
+  <millis>1597149900520</millis>
+  <sequence>1</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>WARNING</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2020-08-11T20:45:00</date>
+  <millis>1597149900520</millis>
+  <sequence>2</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>INFO</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2020-08-11T20:45:00</date>
+  <millis>1597149900520</millis>
+  <sequence>3</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>CONFIG</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2020-08-11T20:45:00</date>
+  <millis>1597149900520</millis>
+  <sequence>4</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2020-08-11T20:45:00</date>
+  <millis>1597149900520</millis>
+  <sequence>5</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINER</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2020-08-11T20:45:00</date>
+  <millis>1597149900521</millis>
+  <sequence>6</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINEST</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-14T15:59:08</date>
+  <millis>1597391948521</millis>
+  <sequence>0</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>SEVERE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:08</date>
+  <millis>1597391948706</millis>
+  <sequence>1</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>WARNING</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:08</date>
+  <millis>1597391948706</millis>
+  <sequence>2</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>INFO</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:08</date>
+  <millis>1597391948706</millis>
+  <sequence>3</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>CONFIG</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:08</date>
+  <millis>1597391948706</millis>
+  <sequence>4</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:08</date>
+  <millis>1597391948706</millis>
+  <sequence>5</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINER</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:08</date>
+  <millis>1597391948707</millis>
+  <sequence>6</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINEST</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-14T15:59:45</date>
+  <millis>1597391985255</millis>
+  <sequence>0</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>SEVERE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:45</date>
+  <millis>1597391985466</millis>
+  <sequence>1</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>WARNING</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:45</date>
+  <millis>1597391985467</millis>
+  <sequence>2</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>INFO</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:45</date>
+  <millis>1597391985468</millis>
+  <sequence>3</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>CONFIG</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:45</date>
+  <millis>1597391985469</millis>
+  <sequence>4</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINE</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:45</date>
+  <millis>1597391985470</millis>
+  <sequence>5</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINER</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2020-08-14T15:59:45</date>
+  <millis>1597391985470</millis>
+  <sequence>6</sequence>
+  <logger>edu.xust.jULtest</logger>
+  <level>FINEST</level>
+  <class>edu.xust.jULtest</class>
+  <method>test05</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
